@@ -1,5 +1,5 @@
-# self_training
-Self-Training
+# Self training
+Self Training
 
 
 1. Ds = { ((170, 57, 32), W),
@@ -21,10 +21,16 @@ Du = { (182, 80, 30), (175, 69, 28), (178, 80, 27),
 (175, 67, 28), (163, 50, 27), (177, 80, 30),
 (170, 65, 28) }
 a) Implemented a self training system using Logistic Regression Classifier for the following data set 
+Program file - selftraining_recursion.py
+Input File – semisupervisedtest.csv
+                          train.csv
+
+
 b) Learnt a classifier using the semi-supervised learning algorithm and
 compared it against a classifier learned only from the labeled data Ds
 using the following test set:
-
+Program file - comparison_selftraining_and_supervised.py
+Input File /Test file – semisupervisedtest.csv,train.csv,2b_test_data.csv
 
 Dt = { ((169, 58, 30), W),
 ((185, 90, 29), M),
@@ -34,3 +40,6 @@ Dt = { ((169, 58, 30), W),
 ((172, 72, 30), M),
 ((175, 68, 27), W),
 ((178, 80, 29), M) }
+
+
+
